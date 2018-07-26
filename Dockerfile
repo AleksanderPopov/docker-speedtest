@@ -7,4 +7,4 @@ RUN apk add --no-cache curl
 RUN curl https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py --output /speedtest.py
 
 # run it on container start
-CMD echo "!!!STARTING SPEED TEST!!!" ; python /speedtest.py ; echo "!!!SPEED TEST FINISHED!!!" ;
+CMD echo "!!!!STARTING SPEED TEST!!!!" ; python /speedtest.py ; echo "!!!!SPEED TEST FINISHED!!!!" ;
